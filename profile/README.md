@@ -5,8 +5,11 @@
 ## What lives here
 
 - **[`spec`](https://github.com/factlet-ai/spec)** — the protocol RFC + v0.1 specification
-- **[`registry`](https://github.com/factlet-ai/registry)** — community-contributed example factbooks
+- **[`evals`](https://github.com/factlet-ai/evals)** — open eval suite measuring whether the protocol actually changes model behavior. Tier 1 = methodology + raw runs published; Tier 2 = aggregate numbers (gated)
 - **[`reference-sdk`](https://github.com/factlet-ai/reference-sdk)** — Python + TypeScript reference implementations
+- **[`registry`](https://github.com/factlet-ai/registry)** — community-contributed example factbooks (payments, ML pipeline, frontend conventions)
+- **[`factbook`](https://github.com/factlet-ai/factbook)** — the org's own operational factbook, dogfooded as a self-hosted reference example
+- **[`factlet.ai`](https://github.com/factlet-ai/factlet.ai)** — source for the [factlet.ai](https://factlet.ai) website
 
 ## Five primitives
 
@@ -18,7 +21,7 @@
 
 ## Try it in 5 minutes (no install)
 
-The protocol is testable in any LLM today via three copy-paste prompts. Build a starter Factbook for your project, use it to answer a question with citations, score FactSignal coverage. See [factlet.ai/getting-started](https://factlet.ai/getting-started).
+The protocol is testable in any LLM today via four copy-paste prompts. Build a starter Factbook for your project, use it to answer a question with citations, score FactSignal coverage, and run an A/B ROI test (with vs without Factbook). See [factlet.ai/getting-started](https://factlet.ai/getting-started).
 
 ## Implementation reference
 
